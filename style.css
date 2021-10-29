@@ -76,6 +76,28 @@ a:hover {
 }
 
 /* FLOATING DOTS */
+
+/* Animation for the dots */
+@keyframes grow-and-shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Applying the animation on the dots */
+.floating-dot {
+  animation: grow-and-shrink 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* Styling for the dots */
 .floating-dot-1 {
   position: absolute;
   background: linear-gradient(353.05deg, #bbbfc279 95%);
