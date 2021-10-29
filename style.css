@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+  background: #d0ddd8;
+}
+
+/* THE NAV BAR */
+ul {
+  list-style-type: none;
+  font-family: Syne;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #3e4674;
+}
+
+a {
+  color: #3e4674;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 28px;
+  color: #262a41;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 24px;
+  top: 28px;
+}
+
+.nav-shop {
+  position: absolute;
+  left: 107px;
+  top: 28px;
+}
+
+.nav-brand {
+  position: absolute;
+  left: 211px;
+  top: 28px;
+}
+
+.nav-sign {
+  position: absolute;
+  left: 369px;
+  top: 28px;
+}
+
+/* TEXTURED BACKGROUND ON RIGHT */
+.bg-texture {
+  position: absolute;
+  width: 900px;
+  height: 925px;
+  left: 900px;
+
+  background: linear-gradient(
+      180.78deg,
+      rgba(227, 237, 236, 0.173) -10.66%,
+      #ffffff 115%
+    ),
+    url(img/5508817.jpg);
+  border-radius: 1000px 0px 0px 0px;
+}
+
+/* FLOATING DOTS */
+.floating-dot-1 {
+  position: absolute;
+  background: linear-gradient(353.05deg, #bbbfc279 95%);
+  backdrop-filter: blur(16px);
+  box-shadow: 0px 88px 64px rgba(98, 130, 134, 0.32), -3px -3px 0px #e5f3f5,
+    0px 3px 0px #d6dadf, inset 0px -20px 20px rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  left: 1300px;
+  top: 50px;
+}
+
+.floating-dot-2 {
+  position: absolute;
+  background: linear-gradient(353.05deg, #bbbfc279 95%);
+  backdrop-filter: blur(16px);
+  box-shadow: 0px 88px 64px rgba(98, 130, 134, 0.32), -3px -3px 0px #ffffff,
+    0px 3px 0px #d6dadf, inset 0px -20px 20px rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  left: 1100px;
+  top: 600px;
+  z-index: 2;
+}
+
+.floating-dot-3 {
+  position: absolute;
+  background: linear-gradient(353.05deg, #bbbfc279 95%);
+  backdrop-filter: blur(16px);
+  box-shadow: 0px 88px 64px rgba(98, 130, 134, 0.32), -3px -3px 0px #e5f3f5,
+    0px 3px 0px #d6dadf, inset 0px -20px 20px rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  left: 200px;
+  top: 250px;
+  z-index: 2;
+}
+
+/* SLIDE ANIMATION FOR NOTIFICATION */
+@keyframes slide-in {
+  from {
+    transform: translateX(-800%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+/* NOTIFICATION FOR LOOKBOOK */
+.h1-bg {
+  position: absolute;
+  width: 544px;
+  height: 765px;
+  left: 600px;
+  top: 160px;
+  /* Applying the animation on the div */
+  animation: slide-in 1500ms;
+  animation-delay: 500ms;
+
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
+  box-shadow: 0px -8px 108px rgba(56, 56, 56, 0.12);
+  backdrop-filter: blur(16px);
+  border-radius: 999px 999px 0px 0px;
+  z-index: 1;
+}
+
+h1 {
+  position: absolute;
+  top: 200px;
+  font-family: DM Serif Display;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3e4674;
+}
+
+p {
+  position: absolute;
+  width: 215px;
+  left: 160px;
+  top: 390px;
+
+  font-family: Syne;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3e4674;
+}
+
+.arrow {
+  position: absolute;
+  left: 230px;
+  top: 480px;
+}
+
+.arrow:hover {
+  top: 500px;
+  cursor: pointer;
+}
+
+/* BUTTON STYLING */
+button {
+  font-family: Syne;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3e4674;
+  position: absolute;
+  background: linear-gradient(353.05deg, #bbbfc279 95%);
+  backdrop-filter: blur(16px);
+  box-shadow: 0px 88px 64px rgba(98, 130, 134, 0.32), -3px -3px 0px #ffffff,
+    0px 3px 0px #d6dadf, inset 0px -20px 20px rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  border: none;
+  width: 200px;
+  height: 100px;
+  left: 450px;
+  top: 700px;
+  z-index: 2;
+}
+
+button:hover {
+  cursor: pointer;
+  width: 210px;
+  height: 110px;
+  font-size: 24px;
+}
+
+.model-img {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  left: 340px;
+  top: 99px;
+  border: 2px solid rgba(255, 255, 255, 0.447);
+  box-sizing: border-box;
+  box-shadow: 0px -62.1458px 117.75px rgba(56, 56, 56, 0.12);
+  border-radius: 700px;
+}
+
+.bottom-logo {
+  position: absolute;
+  width: 283px;
+  height: 190px;
+  left: 1450px;
+  top: 689px;
+}
