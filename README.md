@@ -1,6 +1,7 @@
 # Module 4 - CSS Animations
 
 [Figma File](https://www.figma.com/file/Emv7gvpxo9oCMtieJ9WcUt/CSS-Animation?node-id=30%3A13)
+
 [Live site](https://kristrunu.github.io/M4-CSS-Animation/)
 
 ### Process
