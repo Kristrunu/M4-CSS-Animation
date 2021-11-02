@@ -1,6 +1,7 @@
 # Module 4 - CSS Animations
 
 [Figma File](https://www.figma.com/file/Emv7gvpxo9oCMtieJ9WcUt/CSS-Animation?node-id=30%3A13)
+[Live site](https://kristrunu.github.io/M4-CSS-Animation/)
 
 ### Process
 I started the project by designing the website in Figma. I decided to make something rather simple, just to get started doing CSS animations, so this is some kind of an online clothing brand landing page.
