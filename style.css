@@ -154,8 +154,8 @@ a:hover {
   position: absolute;
   width: 544px;
   height: 765px;
-  left: 600px;
-  top: 160px;
+  left: 33vw;
+  top: 10vw;
   /* Applying the animation on the div */
   animation: slide-in 1500ms;
   animation-delay: 500ms;
@@ -171,7 +171,7 @@ a:hover {
 
 h1 {
   position: absolute;
-  top: 200px;
+  top: 10vw;
   font-family: DM Serif Display;
   font-weight: normal;
   font-size: 80px;
